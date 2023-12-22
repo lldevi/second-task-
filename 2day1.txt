@@ -1,0 +1,55 @@
+
+        objects and its internal representation in Javascript
+
+
+	Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+ These objects are quite different from JavaScript’s 
+ 
+primitive data-types:-
+
+	Number, 
+	String, 
+	Boolean, 
+	null, 
+	undefined 
+	symbol
+
+  the sense that while these primitive data-types all store a single value each (depending on their types).
+
+	Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.An object, is a reference data type. 
+ Variables that are assigned a reference value are given a reference or a pointer to that value.
+ That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+
+
+	 objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, 
+  in the form of “key: value” pairs. 
+  These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+
+Objects and properties:-
+
+		objectName.propertyName
+
+	A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object.
+ Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+ The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+
+ 	JavaScript variables, both the object name and property name are case sensitive.  You can define a property by assigning it a value.
+
+  EX:-
+
+		var kavi = new Object();
+		kavi.make = 'Ford';
+		kavi.model = 'Mustang';
+		kavi.year = 1969;		
+
+	let’s create an object named KAVI and give it properties named make, model, and year 
+
+
+
+
+
+
+
+
+
